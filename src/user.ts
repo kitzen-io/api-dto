@@ -1,7 +1,7 @@
 import {
   AddressNetworkDto,
   AddressTypeDto
-} from "./btc";
+} from "./common";
 
 export interface GetUserAuthMessageResponse {
   message: string;
