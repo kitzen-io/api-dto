@@ -19,6 +19,6 @@ jobs:
 #          file-url: https://unpkg.com/@kitzen/api-dto@latest/package.json
 #          static-checking: localIsNew
       - run: npm publish
-        if: steps.version-check.outputs.changed == 'true'
+#        if: steps.version-check.outputs.changed == 'true'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
