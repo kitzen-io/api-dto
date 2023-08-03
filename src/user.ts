@@ -19,7 +19,7 @@ export interface PostUserAuthVerifyRequest {
 }
 
 export interface GetUserBalanceResponse {
-  btc: number;
+  btc: string;
 }
 
 export interface PostUserAddressRequest  {
