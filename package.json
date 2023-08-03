@@ -1,0 +1,11 @@
+{
+  "name": "api-dto",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "repository": "git@github.com:kitzen-io/api-dto.git",
+  "author": "kitzen",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
