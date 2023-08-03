@@ -1,10 +1,22 @@
 {
-  "name": "api-dto",
+  "name": "@kitzen/api-dto",
   "version": "0.0.1",
   "main": "./src/index.ts",
-  "repository": "git@github.com:kitzen-io/api-dto.git",
-  "author": "kitzen",
-  "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitzen-io/api-dto"
+  },
+  "author": "kitzen <kitzen.io>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "tsc"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18 < 19"
+  },
   "devDependencies": {
     "typescript": "^5.1.6"
   }
