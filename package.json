@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/kitzen-io/data-transfer-objects.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "https://github.com/kitzen-io/data-transfer-objects#readme",
   "exports": {
     ".": "./index.js",
