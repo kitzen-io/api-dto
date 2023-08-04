@@ -1,9 +1,29 @@
-# wallet-core-essentials
+# @kitzen/data-transfer-objects
 [![npm version](https://img.shields.io/npm/v/@kitzen/api-dto?color=green)](https://www.npmjs.com/package/@kitzen/api-dto)
 [![from kitzen with Love](https://img.shields.io/badge/from%20kitzen%20with-%F0%9F%A4%8D-red)](https://kitzen.io/)
 ![test](https://github.com/kitzen-io/api-dto/workflows/build-publish/badge.svg)
 
-Kitzen backend api types for Typescript
+Data Transfer Objects for Kitzen ecosystem
+
+## Getting started
+
+````
+yarn add @kitzen/data-transfer-objects
+````
+
+## Versioning
+
+This lib use [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) library.
+
+Please, set valid commit message, to increment the right version
+### To increase path (x.y.Z) version
+`````fix: your commit message...`````
+
+### To increase minor (x.Y.z) version
+`````feat: your commit message...`````
+
+### To increase version (X.y.z) version
+`````perf: your commit message...`````
 
 # Contributing
 We deeply appreciate the valuable contributions made by our community. 
