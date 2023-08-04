@@ -1,6 +1,6 @@
-enum CurrencyType {
+enum CurrencyTypeEnum {
   FIAT = 'fiat',
   CRYPTO = 'crypto',
 }
 
-export default CurrencyType;
+export default CurrencyTypeEnum;

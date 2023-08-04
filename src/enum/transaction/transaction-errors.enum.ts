@@ -1,0 +1,8 @@
+enum TransactionErrorsEnum {
+  INSUFFICIENT_FUNDS = 'INSUFFICIENT_FUNDS',
+  INSUFFICIENT_TRX_FUNDS = 'INSUFFICIENT_TRX_FUNDS',
+  SIGN_ISSUE = 'Cant sign input',
+  WRONG_CONFIRM_PASSWORD = 'WRONG_CONFIRM_PASSWORD',
+}
+
+export default TransactionErrorsEnum;
