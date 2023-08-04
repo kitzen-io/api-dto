@@ -1,5 +1,5 @@
 # @kitzen/data-transfer-objects
-[![npm version](https://img.shields.io/npm/v/@kitzen/api-dto?color=green)](https://www.npmjs.com/package/@kitzen/api-dto)
+[![npm version](https://img.shields.io/npm/v/@kitzen/data-transfer-objects?color=green)](https://www.npmjs.com/package/@kitzen/data-transfer-objects)
 [![from kitzen with Love](https://img.shields.io/badge/from%20kitzen%20with-%F0%9F%A4%8D-red)](https://kitzen.io/)
 ![test](https://github.com/kitzen-io/api-dto/workflows/build-publish/badge.svg)
 
