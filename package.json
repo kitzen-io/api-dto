@@ -1,6 +1,6 @@
 {
   "name": "@kitzen/data-transfer-objects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "kitzen <kitzen.io>",
   "license": "Apache-2.0",
   "scripts": {
