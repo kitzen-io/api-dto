@@ -31,7 +31,7 @@ jobs:
       - uses: EndBug/version-check@v2
         id: version-check
         with:
-          file-url: https://unpkg.com/@kitzen/api-dto@latest/package.json
+          file-url: https://unpkg.com/@kitzen/data-transfer-objects@latest/package.json
           static-checking: localIsNew
       - name: Release
         env:
