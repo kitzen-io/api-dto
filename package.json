@@ -3,6 +3,11 @@
   "version": "1.0.5",
   "author": "kitzen <kitzen.io>",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/kitzen-io/data-transfer-objects#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitzen-io/data-transfer-objects.git"
+  },
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "tsc && cp ./package.json lib && cp ./.releaserc.json lib && cp ./tsconfig.json lib",
@@ -11,26 +16,26 @@
     "lint:check": "eslint 'src/**/*.ts'",
     "semantic-release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kitzen-io/data-transfer-objects.git"
+  "engines": {
+    "node": ">=18 < 19"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/kitzen-io/data-transfer-objects#readme",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./index.d.ts"
+      ]
+    }
+  },
   "exports": {
-    ".": "./index.js",
-    "./web": "./web/index.js"
+    ".": "./index.js"
   },
   "files": [
     "**/*"
   ],
-  "types": "src",
-  "engines": {
-    "node": ">=18 < 19"
-  },
   "devDependencies": {
     "typescript": "^5.1.6",
     "semantic-release": "^19.0.2",
