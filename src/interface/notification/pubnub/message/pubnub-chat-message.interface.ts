@@ -1,4 +1,4 @@
-import { PubNubChatMessageTypeEnum } from '../../../enum';
+import { PubNubChatMessageTypeEnum } from '../../../../enum';
 
 export interface IPubNubChatMessageSender {
   name: string;

@@ -1,4 +1,4 @@
-import { TransactionStatusEnum, TransactionTypeEnum } from '../../enum';
+import { TransactionStatusEnum, TransactionTypeEnum } from '../../../enum';
 
 export default interface ITransaction {
   userId?: string;

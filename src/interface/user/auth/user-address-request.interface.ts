@@ -1,5 +1,5 @@
-import BlockchainNetworkEnum from '../../enum/blockchain/blockchain-network.enum';
-import AddressTypeEnum from '../../enum/address/address-type.enum';
+import BlockchainNetworkEnum from '../../../enum/blockchain/blockchain-network.enum';
+import AddressTypeEnum from '../../../enum/address/address-type.enum';
 
 export interface IUserAddressRequest {
   addresses: IAddressDto[];

@@ -25,6 +25,16 @@ import PubNubChannelDestinationEnum from './notification/pubnub/pubnub-channel-d
 import PubNubChannelPrefixEnum from './notification/pubnub/pubnub-channel-prefix.enum';
 import PubNubChannelTypeEnum from './notification/pubnub/pubnub-channel-type.enum';
 import PubNubChatMessageTypeEnum from './notification/pubnub/pubnub-chat-message-type.enum';
+import OfferTypeEnum from './offer/offer-type.enum';
+import OfferStatusEnum from './offer/offer-status.enum';
+
+import TradeActionLogEnum from './trade/trade-action-log.enum';
+import TradeStateEnum from './trade/trade-state.enum';
+import TradeStatusEnum from './trade/trade-status.enum';
+import TradeTransactionStatusEnum from './trade/trade-transaction-status.enum';
+import TradeUserRateEnum from './trade/trade-user-rate.enum';
+
+import ReferralWithdrawalRequestStatusEnum from './referral/referral-withdrawal-request-status.enum';
 
 export {
   AddressTypeEnum,
@@ -52,4 +62,15 @@ export {
   PubNubChannelPrefixEnum,
   PubNubChannelTypeEnum,
   PubNubChatMessageTypeEnum,
+
+  OfferTypeEnum,
+  OfferStatusEnum,
+
+  TradeActionLogEnum,
+  TradeStateEnum,
+  TradeStatusEnum,
+  TradeTransactionStatusEnum,
+  TradeUserRateEnum,
+
+  ReferralWithdrawalRequestStatusEnum,
 };

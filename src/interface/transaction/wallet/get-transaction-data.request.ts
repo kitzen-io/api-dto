@@ -1,4 +1,4 @@
-import { CoinsEnum, TransactionTypeEnum } from '../../enum';
+import { CoinsEnum, TransactionTypeEnum } from '../../../enum';
 
 export interface IGetTransactionsDataRequest {
   address?: string;
