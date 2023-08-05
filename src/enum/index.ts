@@ -36,6 +36,8 @@ import TradeUserRateEnum from './trade/trade-user-rate.enum';
 
 import ReferralWithdrawalRequestStatusEnum from './referral/referral-withdrawal-request-status.enum';
 
+import IntegrationRequestActionEnum from './integration/integration-request-action.enum';
+
 export {
   AddressTypeEnum,
   BlockchainNetworkEnum,
@@ -73,4 +75,6 @@ export {
   TradeUserRateEnum,
 
   ReferralWithdrawalRequestStatusEnum,
+
+  IntegrationRequestActionEnum,
 };
