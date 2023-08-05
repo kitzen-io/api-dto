@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "tsc && cp ./package.json lib && cp ./.releaserc.json lib && cp ./tsconfig.json lib",
+    "build": "tsc && cp ./package.json lib && cp ./.releaserc.json lib && cp ./tsconfig.json lib && cp ./README.md lib",
     "build:watch": "tsc --watch",
     "lint": "eslint 'src/**/*.ts' --fix",
     "lint:check": "eslint 'src/**/*.ts'",
