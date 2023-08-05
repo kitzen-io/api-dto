@@ -1,6 +1,6 @@
 {
   "name": "@kitzen/data-transfer-objects",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "author": "kitzen <kitzen.io>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/kitzen-io/data-transfer-objects#readme",
@@ -17,7 +17,7 @@
     "semantic-release": "semantic-release"
   },
   "engines": {
-    "node": ">=18 < 19"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public",
