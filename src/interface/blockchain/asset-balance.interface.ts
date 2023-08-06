@@ -1,6 +1,6 @@
 import { BlockchainNetworkEnum } from '../../enum';
 
-export interface IAssetBalance {
+export default interface IAssetBalance {
   network: BlockchainNetworkEnum;
   balance: string;
   identifier: string;
