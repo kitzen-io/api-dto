@@ -1,8 +1,9 @@
-import { CoinsEnum, TransactionTypeEnum } from '../../../enum';
+import { BlockchainNetworkEnum, TransactionTypeEnum } from '../../../enum';
 
 export interface IGetTransactionsDataRequest {
   address?: string;
-  coin: CoinsEnum;
+  network: BlockchainNetworkEnum;
+  identifier: string;
   page: number;
   perPage: number;
   fingerprint?: string;
