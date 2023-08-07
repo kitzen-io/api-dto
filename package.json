@@ -1,6 +1,6 @@
 {
   "name": "@kitzen/data-transfer-objects",
-  "version": "1.0.6",
+  "version": "1.0.20",
   "author": "kitzen <kitzen.io>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/kitzen-io/data-transfer-objects#readme",
@@ -10,11 +10,10 @@
   },
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "tsc && cp ./package.json lib && cp ./.releaserc.json lib && cp ./tsconfig.json lib && cp ./README.md lib",
+    "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "eslint 'src/**/*.ts' --fix",
-    "lint:check": "eslint 'src/**/*.ts'",
-    "semantic-release": "semantic-release"
+    "lint:check": "eslint 'src/**/*.ts'"
   },
   "engines": {
     "node": ">=16"
@@ -26,16 +25,18 @@
   "typesVersions": {
     "*": {
       ".": [
-        "./index.d.ts"
+        "./lib/index.d.ts"
       ]
     }
   },
   "exports": {
-    ".": "./index.js"
+    ".": "./lib/index.js"
   },
+  "types": "lib",
   "files": [
-    "**/*"
+    "lib"
   ],
+  "main": "lib/index.js",
   "devDependencies": {
     "typescript": "^5.1.6",
     "semantic-release": "^19.0.2",
