@@ -1,6 +1,6 @@
 {
   "name": "@kitzen/data-transfer-objects",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "author": "kitzen <kitzen.io>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/kitzen-io/data-transfer-objects#readme",
@@ -38,11 +38,12 @@
   ],
   "main": "lib/index.js",
   "devDependencies": {
-    "typescript": "^5.1.6",
+    "@types/node": "^20.4.8",
+    "@typescript-eslint/eslint-plugin": "5.36.1",
+    "@typescript-eslint/parser": "5.36.1",
     "eslint": "^8.14.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.22.0",
-    "@typescript-eslint/eslint-plugin": "5.36.1",
-    "@typescript-eslint/parser": "5.36.1"
+    "typescript": "^5.1.6"
   }
 }
