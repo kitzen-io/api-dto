@@ -1,9 +1,9 @@
-import { BlockchainNetworkEnum } from "../../enum";
+import {BlockchainNetworkEnum} from "../../enum";
 
 const CRYPTO_CURRENCY = [
   {
     label: 'BTC',
-    value: `BTC_${BlockchainNetworkEnum.BTC}`,
+    value: `${BlockchainNetworkEnum.BTC}_coin`,
     network: BlockchainNetworkEnum.BTC,
     identifier: 'coin',
   },
