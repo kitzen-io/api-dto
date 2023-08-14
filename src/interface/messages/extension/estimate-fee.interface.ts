@@ -5,7 +5,7 @@ export interface IEstimateFeeBTCExtensionMessageData {
   amount: string;
   pricePerByte: number;
 }
-export interface IEstimateFeeTRCExtensionMessageData {
+export interface IEstimateFeeTRXExtensionMessageData {
   address: string;
   amount: string;
   network: BlockchainNetworkEnum;
