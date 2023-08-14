@@ -1,4 +1,4 @@
-export interface ITransactionResultData {
+export default interface ITransactionResultData {
   transactionHex: string;
   tradeId: string;
   messageId: string;
