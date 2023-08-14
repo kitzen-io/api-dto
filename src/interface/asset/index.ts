@@ -1,1 +1,5 @@
-export * from './asset.interface';
+import { IAsset } from './asset.interface';
+
+export {
+  IAsset,
+};
