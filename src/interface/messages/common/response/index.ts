@@ -1,7 +1,16 @@
-export * from './permissions.response.interface';
-export * from './is-wallet-ready.interface';
-export * from './get-address.response.interface';
+import { IAllowedPermissionsResponseCommonMessageData, IRequestPermissionsResponseCommonMessageData, ICheckPermissionsResponseCommonMessageData } from './permissions.response.interface';
+import { IIsWalletReadyResponseCommonMessageData } from './is-wallet-ready.interface';
+import { IGetAddressResponseCommonMessageData } from './get-address.response.interface';
 
-export interface ResponseCommonMessageData {
+interface ResponseCommonMessageData {
   success: boolean;
 }
+
+export {
+  ResponseCommonMessageData,
+  IAllowedPermissionsResponseCommonMessageData,
+  IRequestPermissionsResponseCommonMessageData,
+  ICheckPermissionsResponseCommonMessageData,
+  IIsWalletReadyResponseCommonMessageData,
+  IGetAddressResponseCommonMessageData,
+};
