@@ -4,4 +4,6 @@ export interface IEscrowFundsRequestCommonMessageData {
   currency: string;
   bitcoinFeePerByte: number;
   tradeId: string;
+  network?: string;
+  identifier?: string;
 }

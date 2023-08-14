@@ -1,7 +1,7 @@
 import { BlockchainNetworkEnum } from '../../../enum';
 
 export interface ICreateTransactionExtensionMessageData {
-  amount: null;
+  amount: string;
   password: string;
   address: string;
   pricePerByte: number;
