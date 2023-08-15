@@ -1,0 +1,41 @@
+import { BlockchainNetworkEnum, OfferTypeEnum, TradeActionLogEnum, TradeStateEnum, TradeStatusEnum } from '../../../enum';
+import ITradeOfferModel from './trade-offer-model.interface';
+import { IPaymentMethodModel } from '../../payment';
+import { IUserModel } from '../../user';
+
+export default interface ITradeModel {
+  id: string;
+  type: OfferTypeEnum;
+  fiatCurrency: string;
+  cryptoCurrencyNetwork: BlockchainNetworkEnum;
+  cryptoCurrencyIdentifier: string;
+  currencyRate: number;
+  fiatAmount: number;
+  cryptoAmountBuyer: bigint;
+  cryptoAmountSeller: bigint;
+  fee: bigint;
+  blockchainFee: number;
+  status: TradeStatusEnum;
+  state: TradeStateEnum;
+  action: TradeActionLogEnum;
+  depositTransactionId: string;
+  escrowWalletAddress: string;
+  releaseTransactionId: string;
+  offerVersion: number;
+  isRatedMaker: boolean;
+  isRatedTaker: boolean;
+  requisites?: string;
+  method: IPaymentMethodModel;
+  methodId: number;
+  offer: ITradeOfferModel;
+  offerId: string;
+  offerOwner: IUserModel;
+  offerOwnerId: string;
+  maker: IUserModel;
+  makerId: string;
+  taker: IUserModel;
+  takerId: string;
+  countdownRelease?: number;
+  createdAt: Date;
+  updatedAt: Date;
+}
