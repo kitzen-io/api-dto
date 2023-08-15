@@ -1,6 +1,6 @@
-import { BlockchainNetworkEnum } from '../../enum';
+import { BlockchainNetworkEnum } from '../../../enum';
 
-export interface IAsset {
+export default interface IAsset {
   symbol: string;
   network: BlockchainNetworkEnum;
   identifier: string;

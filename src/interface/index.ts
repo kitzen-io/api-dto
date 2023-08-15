@@ -6,4 +6,6 @@ export * from './trade';
 export * from './transaction';
 export * from './user';
 export * from './messages';
-export * from './asset';
+export * from './user/asset';
+export * from './health';
+export * from './integration';
