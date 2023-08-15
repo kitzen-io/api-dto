@@ -29,13 +29,13 @@ import {
   ISignTransactionRequestCommonMessageData,
 } from './common';
 
-interface IMessage<T> {
+interface IExtensionMessage<T> {
   messageType: BackgroundMessageTypeEnum | BackgroundContentMessageTypesEnum | ExtensionNotificationActionEnum | ExtensionsPostMessageTypesEnum;
   data?: T;
 }
 
 export {
-  IMessage,
+  IExtensionMessage,
   ICreateTransactionExtensionMessageData,
   IChangePasswordExtensionMessageData,
   IDecodePsbtExtensionMessageData,
