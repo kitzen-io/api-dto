@@ -1,6 +1,6 @@
 import ITransaction from './transaction.interface';
 
-export interface IGetTransactionsDataResponse {
+export default interface IGetTransactionsDataResponse {
   data: ITransaction[];
   next: boolean;
   fingerprint?: string;
