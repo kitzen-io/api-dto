@@ -1,8 +1,8 @@
 import { BlockchainNetworkEnum, OfferStatusEnum, OfferTypeEnum } from '../../../enum';
-import { IPaymentOfferMethods } from '../../payment';
-import { IUserModel } from '../../user';
+import { IPaymentOfferMethodsEntity } from '../../payment';
+import { IUserEntity } from '../../user';
 
-export default interface ITradeOfferModel {
+export default interface ITradeOfferEntity {
   id: string;
   description: string;
   countryCode: string;
@@ -19,8 +19,8 @@ export default interface ITradeOfferModel {
   version: number;
   publicKey: string;
   derivationPath: string;
-  method: IPaymentOfferMethods[];
-  user: IUserModel;
+  method: IPaymentOfferMethodsEntity[];
+  user: IUserEntity;
   ownerId: string;
   createdAt: Date;
   updatedAt: Date;

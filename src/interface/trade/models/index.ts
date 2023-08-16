@@ -1,9 +1,9 @@
-import ITradeModel from './trade-model.interface';
-import ITradeOfferModel from './trade-offer-model.interface';
+import ITradeEntity from './trade-entity.interface';
+import ITradeOfferEntity from './trade-offer-entity.interface';
 import IPaymentMethodDto from './offer-payment-method-dto.interface';
 
 export {
-  ITradeOfferModel,
-  ITradeModel,
+  ITradeOfferEntity,
+  ITradeEntity,
   IPaymentMethodDto,
 };

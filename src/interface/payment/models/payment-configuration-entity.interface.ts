@@ -1,4 +1,4 @@
-export default interface IPaymentConfigurationModel {
+export default interface IPaymentConfigurationEntity {
   id: number;
   escrowTransactionFeeRate: number;
   escrowTransactionMinSatoshiAmount: number;

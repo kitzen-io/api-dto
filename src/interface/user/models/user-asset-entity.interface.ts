@@ -1,7 +1,7 @@
-import IUserModel from './user-model.interface';
+import IUserEntity from './user-entity.interface';
 import { BlockchainNetworkEnum } from '../../../enum';
 
-export interface IAssetModel {
+export interface IAssetEntity {
   id: number;
   symbol: string;
   name: string;
@@ -12,11 +12,11 @@ export interface IAssetModel {
   updatedAt: Date;
 }
 
-export interface IUserAssetModel {
+export interface IUserAssetEntity {
   id: number;
-  user: IUserModel;
+  user: IUserEntity;
   userId: string;
-  asset: IAssetModel;
+  asset: IAssetEntity;
   assetId: number;
   createdAt: Date;
   updatedAt: Date;

@@ -1,9 +1,9 @@
 import { AddressTypeEnum, BlockchainNetworkEnum } from '../../../enum';
-import IUserModel from './user-model.interface';
+import IUserEntity from './user-entity.interface';
 
-export default interface IUserAddressModel {
+export default interface IUserAddressEntity {
   id: number;
-  user: IUserModel;
+  user: IUserEntity;
   userId: string;
   isMaster: boolean;
   address: string;
