@@ -1,12 +1,12 @@
-import IUserModel from './user-model.interface';
+import IUserEntity from './user-entity.interface';
 
-export default interface IUserIpModel {
+export default interface IUserIpEntity {
   id: number;
   ip: string;
   country: string;
   userAgent: string;
   createdAt: Date;
   updatedAt: Date;
-  user: IUserModel;
+  user: IUserEntity;
   userId: string;
 }

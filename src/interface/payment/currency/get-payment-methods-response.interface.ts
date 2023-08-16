@@ -1,3 +1,3 @@
-import { IPaymentMethodModel } from '../models';
+import { IPaymentMethodEntity } from '../models';
 
-export type IGetPaymentMethodsResponse = IPaymentMethodModel[];
+export type IGetPaymentMethodsResponse = IPaymentMethodEntity[];

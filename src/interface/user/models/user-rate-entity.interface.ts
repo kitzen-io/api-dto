@@ -1,7 +1,7 @@
-import { ITradeModel } from '../../trade';
-import IUserModel from './user-model.interface';
+import { ITradeEntity } from '../../trade';
+import IUserEntity from './user-entity.interface';
 
-export interface IUserRateModel {
+export interface IUserRateEntity {
   id: number;
   one: number;
   two: number;
@@ -10,18 +10,18 @@ export interface IUserRateModel {
   five: number;
   createdAt: Date;
   updatedAt: Date;
-  user: IUserModel;
+  user: IUserEntity;
 }
 
-export interface IRateModel {
+export interface IRateEntity {
   id: number;
   message: string;
   rate: number;
-  actedUser: IUserModel;
+  actedUser: IUserEntity;
   userId: string;
-  user: IUserModel;
+  user: IUserEntity;
   createdAt: Date;
   updatedAt: Date;
-  trade: ITradeModel;
+  trade: ITradeEntity;
   tradeId: string;
 }

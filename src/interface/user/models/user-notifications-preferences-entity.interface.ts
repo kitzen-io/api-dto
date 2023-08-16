@@ -1,6 +1,6 @@
-import IUserModel from './user-model.interface';
+import IUserEntity from './user-entity.interface';
 
-export default interface IUserNotificationsPreferencesModel {
+export default interface IUserNotificationsPreferencesEntity {
   id: number;
   instantTradeCreate: boolean;
   instantTradeStatus: boolean;
@@ -11,5 +11,5 @@ export default interface IUserNotificationsPreferencesModel {
   enableSound: boolean;
   createdAt: Date;
   updatedAt: Date;
-  user: IUserModel;
+  user: IUserEntity;
 }

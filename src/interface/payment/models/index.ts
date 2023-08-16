@@ -1,9 +1,9 @@
-import IPaymentOfferMethods from './payment-offer-methods-model';
-import IPaymentConfigurationModel from './payment-configuration-model.interface';
-import IPaymentMethodModel from './payment-method-model.interface';
+import IPaymentOfferMethodsEntity from './payment-offer-methods-entity';
+import IPaymentConfigurationEntity from './payment-configuration-entity.interface';
+import IPaymentMethodEntity from './payment-method-entity.interface';
 
 export {
-  IPaymentOfferMethods,
-  IPaymentConfigurationModel,
-  IPaymentMethodModel,
+  IPaymentOfferMethodsEntity,
+  IPaymentConfigurationEntity,
+  IPaymentMethodEntity,
 };

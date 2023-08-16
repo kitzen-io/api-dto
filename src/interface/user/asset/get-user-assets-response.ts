@@ -1,3 +1,3 @@
-import { IUserAssetModel } from '../models';
+import { IUserAssetEntity } from '../models';
 
-export type IGetUserAssets = IUserAssetModel[];
+export type IGetUserAssets = IUserAssetEntity[];

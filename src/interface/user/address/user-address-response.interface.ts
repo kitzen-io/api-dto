@@ -1,6 +1,6 @@
-import { IUserAddressModel } from '../models';
+import { IUserAddressEntity } from '../models';
 export interface ISetAddressesResponseDto {
-  addresses: IUserAddressModel[];
+  addresses: IUserAddressEntity[];
 }
 
-export type ISetAddressesResponse = IUserAddressModel[];
+export type ISetAddressesResponse = IUserAddressEntity[];
