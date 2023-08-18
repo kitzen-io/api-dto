@@ -5,5 +5,5 @@ export default interface IAssetBalance {
   balance: string;
   identifier: string;
   address?: string;
-  rate: number;
+  rate: string;
 }
