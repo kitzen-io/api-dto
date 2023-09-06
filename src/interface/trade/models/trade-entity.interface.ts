@@ -1,4 +1,4 @@
-import { BlockchainNetworkEnum, OfferTypeEnum, TradeActionLogEnum, TradeStateEnum, TradeStatusEnum } from '../../../enum';
+import { BlockchainNetworkEnum, OfferTypeEnum, TradeActionLogEnum } from '../../../enum';
 import ITradeOfferEntity from './trade-offer-entity.interface';
 import { IPaymentMethodEntity } from '../../payment';
 import { IUserEntity } from '../../user';
@@ -15,8 +15,6 @@ export default interface ITradeEntity {
   cryptoAmountSeller: bigint;
   fee: bigint;
   blockchainFee: number;
-  status: TradeStatusEnum;
-  state: TradeStateEnum;
   action: TradeActionLogEnum;
   depositTransactionId: string;
   escrowWalletAddress: string;

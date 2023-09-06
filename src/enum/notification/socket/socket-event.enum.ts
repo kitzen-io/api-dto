@@ -1,0 +1,7 @@
+enum SocketEventEnum {
+  SUBSCRIBE_AUTHORIZED = 'SUBSCRIBE_AUTHORIZED',
+  SUBSCRIBE_PUBLIC = 'SUBSCRIBE_PUBLIC',
+  UNSUBSCRIBE = 'UNSUBSCRIBE',
+}
+
+export default SocketEventEnum;

@@ -1,6 +1,5 @@
-import { OfferTypeEnum, TradeStatusEnum } from '../../../enum';
+import { OfferTypeEnum } from '../../../enum';
 
 export default interface IGetTradesRequest {
   type: OfferTypeEnum;
-  status: TradeStatusEnum;
 }

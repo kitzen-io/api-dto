@@ -1,6 +1,6 @@
 export * from './blockchain';
 export * from './common';
-export * from './notification';
+export * from './event';
 export * from './payment';
 export * from './trade';
 export * from './transaction';

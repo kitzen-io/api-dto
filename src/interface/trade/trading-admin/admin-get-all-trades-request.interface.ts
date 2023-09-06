@@ -1,10 +1,8 @@
-import { OfferTypeEnum, TradeActionLogEnum, TradeStateEnum, TradeStatusEnum } from '../../../enum';
+import { OfferTypeEnum, TradeActionLogEnum } from '../../../enum';
 
 export default interface IAdminGetAllTradesRequest {
   id: string;
   type: OfferTypeEnum;
-  status: TradeStatusEnum;
-  state: TradeStateEnum;
   action: TradeActionLogEnum;
   fiatCurrency: string;
   cryptoCurrency: string;

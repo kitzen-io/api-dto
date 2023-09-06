@@ -1,4 +1,4 @@
-import { OfferTypeEnum, TradeActionLogEnum, TradeStateEnum, TradeStatusEnum } from '../../../enum';
+import { OfferTypeEnum, TradeActionLogEnum } from '../../../enum';
 
 export default interface IAdminUpdateTradeRequest {
   id: string;
@@ -10,8 +10,6 @@ export default interface IAdminUpdateTradeRequest {
   cryptoAmountBuyer?: bigint;
   cryptoAmountSeller?: bigint;
   fee?: bigint;
-  status?: TradeStatusEnum;
-  state?: TradeStateEnum;
   action?: TradeActionLogEnum;
   depositTransactionId?: string;
   escrowWalletAddress?: string;

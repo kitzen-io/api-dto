@@ -1,4 +1,4 @@
-import { BackgroundContentMessageTypesEnum, BackgroundMessageTypeEnum, ExtensionNotificationActionEnum, ExtensionsPostMessageTypesEnum } from '../../enum';
+import { BackgroundContentMessageTypesEnum, BackgroundMessageTypeEnum, ExtensionsPostMessageTypesEnum } from '../../enum';
 
 import {
   ICreateTransactionExtensionMessageData,
@@ -30,7 +30,7 @@ import {
 } from './common';
 
 interface IExtensionMessage<T> {
-  messageType: BackgroundMessageTypeEnum | BackgroundContentMessageTypesEnum | ExtensionNotificationActionEnum | ExtensionsPostMessageTypesEnum;
+  messageType: BackgroundMessageTypeEnum | BackgroundContentMessageTypesEnum | ExtensionsPostMessageTypesEnum;
   data?: T;
 }
 

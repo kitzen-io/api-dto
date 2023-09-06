@@ -1,5 +1,3 @@
-import ITradeActionLog from './trade-action-log.interface';
-import IPublishChatMessageRequest from './chat/publish-chat-message-request.interface';
 import IGetOffersRequest from './offer/get-offers-request.interface';
 import ICreateOfferRequest from './offer/create-offer-request.interface';
 import IUpdateOfferRequest from './offer/update-offer-request.interface';
@@ -16,11 +14,10 @@ import IAdminGetAllTradesRequest from './trading-admin/admin-get-all-trades-requ
 import IAdminUpdateTradeRequest from './trading-admin/admin-update-trade-request.interface';
 import IAdminSetDisputedSideRequest from './trading-admin/admin-set-disputed-side-request.interface';
 import IAdminGetAllOffersRequest from './trading-admin/admin-get-all-offers-request.interface';
+import IConversationMessageEntity from './conversation/conversation-message-entity.interface';
 
 export * from './models';
 export {
-  IPublishChatMessageRequest,
-  ITradeActionLog,
   IGetOffersRequest,
   ICreateOfferRequest,
   IUpdateOfferRequest,
@@ -37,5 +34,6 @@ export {
   IAdminUpdateTradeRequest,
   IAdminSetDisputedSideRequest,
   IAdminGetAllOffersRequest,
+  IConversationMessageEntity,
 };
 

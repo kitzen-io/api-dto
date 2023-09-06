@@ -1,17 +1,13 @@
-import ExtensionNotificationActionEnum from './extension-notification-action.enum';
-import SystemNotificationActionEnum from './system-notifcation-action.enum';
-import UserNotificationTypeEnum from './user-notifcation-type.enum';
-import PubNubChannelDestinationEnum from './pubnub/pubnub-channel-destination.enum';
-import PubNubChannelPrefixEnum from './pubnub/pubnub-channel-prefix.enum';
-import PubNubChannelTypeEnum from './pubnub/pubnub-channel-type.enum';
-import PubNubChatMessageTypeEnum from './pubnub/pubnub-chat-message-type.enum';
+import UserNotificationKeyEnum from './user-notifcation-key.enum';
+import SocketEventEnum from './socket/socket-event.enum';
+import SocketTopicEnum from './socket/socket-topic.enum';
+import SocketChannel from './socket/socket-channel.enum';
+import ConversationMessageTypeEnum from './conversation-message-type.enum';
 
 export {
-  ExtensionNotificationActionEnum,
-  SystemNotificationActionEnum,
-  UserNotificationTypeEnum,
-  PubNubChannelDestinationEnum,
-  PubNubChannelPrefixEnum,
-  PubNubChannelTypeEnum,
-  PubNubChatMessageTypeEnum,
+  UserNotificationKeyEnum,
+  SocketTopicEnum,
+  SocketChannel,
+  SocketEventEnum,
+  ConversationMessageTypeEnum,
 };

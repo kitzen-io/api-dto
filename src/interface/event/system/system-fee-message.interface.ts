@@ -1,4 +1,4 @@
-export default interface ISystemFee {
+export default interface ISystemFeeEvent {
   escrowTransactionMinSatoshiAmount: number;
   escrowTransactionFeeRate: number;
   bitcoinFeePerByte: number;
