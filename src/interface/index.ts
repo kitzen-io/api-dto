@@ -9,3 +9,4 @@ export * from './messages';
 export * from './user/asset';
 export * from './health';
 export * from './integration';
+export * from './tron';
