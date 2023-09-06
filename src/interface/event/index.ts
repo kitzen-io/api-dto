@@ -6,7 +6,7 @@ import ISystemCommandEvent from './system/system-command-event.interface';
 import ISystemCurrencyRateEvent from './system/system-currency-rate-event.interface';
 import ISystemFeeEvent from './system/system-fee-message.interface';
 import IOfferStatusEvent from './offer/offer-status.event.interface';
-import IPublishMessageEvent from './publish-message-event.interface';
+import IPublishMessageEvent, { PublishMessageDataType } from './publish-message-event.interface';
 import ITradeActionNotificationEvent from './trade/trade-action-notification.event.interface';
 import ITradeActionLogEvent, {
   IActionLogCountdownTimer,
@@ -18,6 +18,7 @@ import ITradeActionLogEvent, {
 
 export {
   IPublishMessageEvent,
+  PublishMessageDataType,
 
   ISystemFeeEvent,
   ISystemCurrencyRateEvent,
