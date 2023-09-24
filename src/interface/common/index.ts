@@ -1,5 +1,1 @@
-import { IPaginationDto } from './pagination-dto.interface';
-
-export {
-  IPaginationDto,
-};
+export * from './pagination-dto.interface';
