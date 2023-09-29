@@ -2,7 +2,7 @@ import { BlockchainNetworkEnum, TransactionTypeEnum } from '../../../enum';
 
 export default interface IGetTransactionsDataRequest {
   network: BlockchainNetworkEnum;
-  identifier: string;
+  identifier?: string;
 
   page: number;
   perPage: number;
