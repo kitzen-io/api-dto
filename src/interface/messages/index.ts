@@ -1,6 +1,7 @@
 import { BackgroundContentMessageTypesEnum, BackgroundMessageTypeEnum, ExtensionsPostMessageTypesEnum } from '../../enum';
 
 import {
+  IGetNetworkAddress,
   ICreateTransactionExtensionMessageData,
   IChangePasswordExtensionMessageData,
   IDecodePsbtExtensionMessageData,
@@ -59,4 +60,5 @@ export {
   IPermissionsRequestCommonMessageData,
   ISendTransactionRequestCommonMessageData,
   ISignTransactionRequestCommonMessageData,
+  IGetNetworkAddress,
 };

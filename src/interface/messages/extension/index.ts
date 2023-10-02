@@ -10,8 +10,10 @@ import { IUnlockWalletExtensionMessageData } from './unlock-wallet.interface';
 import { IWatchAssetExtensionMessageData } from './watch-asset.interface';
 import { IApprovePermissionsExtensionMessageData } from './approve-permissions.interface';
 import { ISendTransactionRequestExtensionMessageData } from './send-transaction-request.interface';
+import { IGetNetworkAddress } from './get-network-address.interface';
 
 export {
+  IGetNetworkAddress,
   ICreateTransactionExtensionMessageData,
   IChangePasswordExtensionMessageData,
   IDecodePsbtExtensionMessageData,
