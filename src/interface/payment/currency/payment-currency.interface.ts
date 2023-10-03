@@ -1,6 +1,8 @@
+import FiatCurrency from '../../../enum/currency/fiat-currency';
+
 export default interface IPaymentCurrency {
   id: number;
-  identifier: string;
+  identifier: FiatCurrency;
   rate: number;
 }
 
