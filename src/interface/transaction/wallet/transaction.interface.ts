@@ -1,4 +1,4 @@
-import { TransactionStatusEnum, TransactionTypeEnum } from '../../../enum';
+import { BlockchainNetworkEnum, TransactionStatusEnum, TransactionTypeEnum } from '../../../enum';
 
 export default interface ITransaction {
   userId?: string;
@@ -9,4 +9,6 @@ export default interface ITransaction {
   toAddress: string;
   createdAt: Date;
   status: TransactionStatusEnum;
+  network: BlockchainNetworkEnum;
+  identifier?: string;
 }
