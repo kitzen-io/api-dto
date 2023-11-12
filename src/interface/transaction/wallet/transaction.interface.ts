@@ -7,8 +7,6 @@ export default interface ITransaction {
   amount: string;
   type: TransactionTypeEnum;
   fromAddress: string;
-  network: BlockchainNetworkEnum;
-  identifier?: string;
   toAddress: string;
   createdAt: Date;
   status: TransactionStatusEnum;
