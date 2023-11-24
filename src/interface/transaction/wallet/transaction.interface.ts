@@ -1,4 +1,5 @@
-import { BlockchainNetworkEnum, TransactionStatusEnum, TransactionTypeEnum } from '../../../enum';
+import { TransactionStatusEnum, TransactionTypeEnum } from '../../../enum';
+import BlockchainNetworkEnum from '../../../enum/blockchain/blockchain-network.enum';
 
 export default interface ITransaction {
   userId?: string;
