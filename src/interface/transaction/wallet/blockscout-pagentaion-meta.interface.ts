@@ -1,5 +1,5 @@
 export default interface BlockscoutPaginationMeta {
-    blockCount: number;
-    index: number;
-    itemsCount: number;
+  blockCount: number;
+  index: number;
+  itemsCount: number;
 }
