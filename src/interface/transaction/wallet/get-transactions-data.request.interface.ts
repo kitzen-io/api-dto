@@ -1,4 +1,6 @@
 import { BlockchainNetworkEnum, TransactionTypeEnum } from '../../../enum';
+import BlosckoutPaginationMeta from './blickscout-pagentaion-meta.interface';
+
 
 export default interface IGetTransactionsDataRequest {
   network: BlockchainNetworkEnum;
@@ -10,4 +12,6 @@ export default interface IGetTransactionsDataRequest {
   address?: string;
   fingerprint?: string;
   type?: TransactionTypeEnum;
+
+  blosckoutPaginationMeta?: BlosckoutPaginationMeta;
 }
