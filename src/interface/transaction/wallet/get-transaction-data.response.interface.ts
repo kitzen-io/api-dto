@@ -1,4 +1,4 @@
-import BlockscoutPaginationMeta from './blockscout-pagentaion-meta.interface';
+import BlockscoutPaginationMeta from './blockscout-pagination-meta.interface';
 import ITransaction from './transaction.interface';
 
 export default interface IGetTransactionsDataResponse {
