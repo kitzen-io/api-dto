@@ -12,5 +12,5 @@ export default interface ITransaction {
   status: TransactionStatusEnum;
   network: BlockchainNetworkEnum;
   identifier?: string;
-  fee: string;
+  fee?: string;
 }

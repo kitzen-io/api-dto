@@ -1,9 +1,11 @@
-import BlockscoutPaginationMeta from './blockscout-pagination-meta.interface';
+import BlockscoutTokenPaginationMeta from './blockscout-token-pagination-meta.interface';
+import BlockscoutCoinPaginationMeta from './blockscout-coin-pagination-meta.interface';
 import ITransaction from './transaction.interface';
 
 export default interface IGetTransactionsDataResponse {
   data: ITransaction[];
   next: boolean;
   fingerprint?: string;
-  blockscoutPaginationMeta?: BlockscoutPaginationMeta;
+  blockscoutCoinPaginationMeta?: BlockscoutCoinPaginationMeta;
+  blockscoutTokenPaginationMeta?: BlockscoutTokenPaginationMeta;
 }
