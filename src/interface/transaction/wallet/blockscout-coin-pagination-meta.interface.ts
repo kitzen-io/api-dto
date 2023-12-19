@@ -1,4 +1,4 @@
-export default interface BlockscoutCoinPaginationMeta {
+export default interface IBlockscoutCoinPaginationMeta {
   blockNumber: number;
   index: number;
   itemsCount: number;
