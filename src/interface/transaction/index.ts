@@ -9,7 +9,7 @@ import IBroadcastTransactionResponse from './wallet/broadcast-transaction-respon
 import IUnspentTransaction from './wallet/unspent-transaction-request.interface';
 import IBroadcastTransactionRequest from './wallet/broadcast-transaction-request.interface';
 import IBlockscoutCoinPaginationMeta from './wallet/blockscout-coin-pagination-meta.interface';
-import IBlockscoutTokenPaginationMeta from './wallet/blockscout-coin-pagination-meta.interface'
+import IBlockscoutTokenPaginationMeta from './wallet/blockscout-token-pagination-meta.interface'
 import IGetTransactionCountRequest from './wallet/get-transaction-count-request.interface';
 import IGetTransactionCountResponse from './wallet/get-transaction-count-response.interface';
 
