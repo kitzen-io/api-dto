@@ -8,7 +8,8 @@ import IGetSingleTransactionRequest from './wallet/get-single-transaction-reques
 import IBroadcastTransactionResponse from './wallet/broadcast-transaction-response.interface';
 import IUnspentTransaction from './wallet/unspent-transaction-request.interface';
 import IBroadcastTransactionRequest from './wallet/broadcast-transaction-request.interface';
-import IBlockscoutPaginationMeta from './wallet/blockscout-pagination-meta.interface';
+import IBlockscoutCoinPaginationMeta from './wallet/blockscout-coin-pagination-meta.interface';
+import IBlockscoutTokenPaginationMeta from './wallet/blockscout-coin-pagination-meta.interface'
 import IGetTransactionCountRequest from './wallet/get-transaction-count-request.interface';
 import IGetTransactionCountResponse from './wallet/get-transaction-count-response.interface';
 
@@ -25,5 +26,6 @@ export {
   IBroadcastTransactionResponse,
   IUnspentTransaction,
   IBroadcastTransactionRequest,
-  IBlockscoutPaginationMeta,
+  IBlockscoutCoinPaginationMeta,
+  IBlockscoutTokenPaginationMeta,
 };

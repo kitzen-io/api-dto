@@ -11,7 +11,10 @@ export default interface IGetTransactionsDataRequest {
   fingerprint?: string;
   type?: TransactionTypeEnum;
 
-  blockCount?: number;
-  index?: number;
-  itemsCount?: number;
+  ethBlockNumber?: number;
+  ethIndex?: number;
+  ethItemsCount?: number;
+  
+  tokenBlockNumber?: number;
+  tokenIndex?: number;
 }
