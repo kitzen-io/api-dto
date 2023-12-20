@@ -14,6 +14,10 @@ export default interface IGetTransactionsDataRequest {
   ethBlockNumber?: number;
   ethIndex?: number;
   ethItemsCount?: number;
+  ethValue?: string;
+  ethInsertedAt?: Date;
+  ethHash?: string;
+  ethFee?: string;
   
   tokenBlockNumber?: number;
   tokenIndex?: number;
