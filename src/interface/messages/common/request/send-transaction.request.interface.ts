@@ -9,4 +9,5 @@ export interface ISendTransactionRequestCommonMessageData {
   identifier: string;
   tradeId: string;
   paymentWindowInSeconds?: number;
+  method?: string;
 }
