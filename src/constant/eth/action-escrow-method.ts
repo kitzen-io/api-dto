@@ -8,6 +8,6 @@ export const ACTION_ESCROW_ETH_METHOD = {
   [TradeActionLogEnum.MAKER_ESCROW_CRYPTO_CANCELED_MAKER]: 'sellerCancel',
   [TradeActionLogEnum.START_TRADE_CANCELED_TAKER]: 'buyerCancel',
   [TradeActionLogEnum.MAKER_ESCROW_CRYPTO_CANCELED_TAKER]: 'buyerCancel',
-  [TradeActionLogEnum.DISPUTE_MAKER_RELEASE_TO_TAKER]: 'dispute',
-  [TradeActionLogEnum.DISPUTE_TAKER_RELEASE_TO_MAKER]: 'dispute',
+  [TradeActionLogEnum.DISPUTE_MAKER_RELEASE_TO_TAKER]: 'resolveDispute',
+  [TradeActionLogEnum.DISPUTE_TAKER_RELEASE_TO_MAKER]: 'resolveDispute',
 };
