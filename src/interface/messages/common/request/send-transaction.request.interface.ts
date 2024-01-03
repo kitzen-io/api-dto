@@ -10,4 +10,5 @@ export interface ISendTransactionRequestCommonMessageData {
   tradeId: string;
   paymentWindowInSeconds?: number;
   method?: string;
+  buyerPercent?: number;
 }
