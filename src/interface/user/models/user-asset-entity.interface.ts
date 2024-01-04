@@ -18,6 +18,7 @@ export interface IUserAssetEntity {
   userId: string;
   asset: IAssetEntity;
   assetId: number;
+  isSubscribed: boolean;
   createdAt: Date;
   updatedAt: Date;
 }
