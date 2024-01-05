@@ -6,5 +6,4 @@ export default interface IAssetBalance {
   identifier: string;
   address?: string;
   rate: string;
-  isSubscribed?: boolean;
 }
