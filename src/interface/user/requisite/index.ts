@@ -1,6 +1,6 @@
-import IRequisiteRequest from './requisite-request.interface';
+import IAddRequisiteRequest from './add-requisite-request.interface';
 
 export {
-  IRequisiteRequest,
+  IAddRequisiteRequest,
 };
  

@@ -1,4 +1,4 @@
-export default interface IRequisiteRequest {
+export default interface IAddRequisiteRequest {
   cardName: string;
   bankName: string;
   cardNumber: string;
