@@ -9,3 +9,4 @@ export * from './preferences';
 export * from './rate';
 export * from './referral';
 export * from './transaction';
+export * from './requisite';
