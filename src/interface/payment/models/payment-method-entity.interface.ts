@@ -5,6 +5,7 @@ export default interface IPaymentMethodEntity {
   name: string;
   currency: string;
   offers: IPaymentOfferMethodsEntity[];
+  requisiteScheme: Object;
   createdAt: Date;
   updatedAt: Date;
 }

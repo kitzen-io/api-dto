@@ -5,6 +5,7 @@ import IUserNotificationsPreferencesEntity from './user-notifications-preference
 import { IUserRateEntity, IRateEntity } from './user-rate-entity.interface';
 import IUserReferralStatisticEntity from './user-referral-statistic-entity.interface';
 import { IUserAssetEntity, IAssetEntity } from './user-asset-entity.interface';
+import { IRequisiteEntity } from './user-requisite-entity.interface'
 
 export {
   IUserAddressEntity,
@@ -16,4 +17,5 @@ export {
   IUserIpEntity,
   IUserAssetEntity,
   IAssetEntity,
+  IRequisiteEntity,
 };
