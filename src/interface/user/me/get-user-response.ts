@@ -1,5 +1,4 @@
 import { IUserEntity } from '../models';
-export type IGetUserResponse = {
-  user: IUserEntity,
-  tradesCount30d: number,
-};
+export interface IGetUserResponse extends IUserEntity {
+  tradesCount30d: number;
+}
