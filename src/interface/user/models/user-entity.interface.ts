@@ -1,5 +1,5 @@
 import { ITradeOfferEntity } from '../../trade';
-import { IRateEntity, IUserRateEntity } from './user-rate-entity.interface';
+import { IFeedbackEntity } from './user-feedback-entity.interface';
 import IUserAddressEntity from './user-address-entity.interface';
 import IUserNotificationsPreferencesEntity from './user-notifications-preferences-entity.interface';
 import IUserReferralStatisticEntity from './user-referral-statistic-entity.interface';
@@ -16,10 +16,12 @@ export default interface IUserEntity {
   lastOnline: Date;
   nameUpdateDate: Date;
   userNotificationPreferences: IUserNotificationsPreferencesEntity;
-  userRate: IUserRateEntity;
   referralStatisticModel: IUserReferralStatisticEntity;
+  positiveFeedback: number;
+  negativeFeedback: number;
   addresses: IUserAddressEntity[];
-  rate: IRateEntity[];
+  writtenFeedbacks: IFeedbackEntity[];
+  receivedFeedbacks: IFeedbackEntity[];
   offers: ITradeOfferEntity[];
   createdAt: Date;
   updatedAt: Date;

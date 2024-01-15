@@ -6,7 +6,6 @@ import TradeActionLogEnum, {
   STARTING_TRADE_ACTION_LOG,
 } from './trade-action-log.enum';
 import TradeTransactionStatusEnum from './trade-transaction-status.enum';
-import TradeUserRateEnum from './trade-user-rate.enum';
 import TradeStatusEnum from './trade-status.enum';
 
 export {
@@ -19,7 +18,6 @@ export {
   FINISHED_TRADE_ACTION_LOG,
 
   TradeTransactionStatusEnum,
-  TradeUserRateEnum,
 
   TradeStatusEnum,
 };
