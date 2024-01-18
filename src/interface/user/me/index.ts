@@ -3,6 +3,7 @@ import { IUserBalanceResponse } from './user-balance-response.interface';
 import IGetUserBalanceRequest from './get-user-balance-request.interface';
 import IGetAvailableBalance from './get-available-balance.interface';
 import { IGetUserResponse } from './get-user-response';
+import IGetUserBalanceTradingResponse from './get-user-balance-trading-response.interface';
 
 export {
   IUpdateUserRequest,
@@ -10,4 +11,5 @@ export {
   IGetUserBalanceRequest,
   IGetAvailableBalance,
   IGetUserResponse,
+  IGetUserBalanceTradingResponse,
 };
