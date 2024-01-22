@@ -6,6 +6,7 @@ import { IFeedbackEntity } from './user-feedback-entity.interface';
 import IUserReferralStatisticEntity from './user-referral-statistic-entity.interface';
 import { IUserAssetEntity, IAssetEntity } from './user-asset-entity.interface';
 import { IRequisiteEntity } from './user-requisite-entity.interface'
+import IBlacklistEntity from './user-blacklist-entity.interface';
 
 export {
   IUserAddressEntity,
@@ -17,4 +18,5 @@ export {
   IUserAssetEntity,
   IAssetEntity,
   IRequisiteEntity,
+  IBlacklistEntity,
 };

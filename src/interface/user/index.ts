@@ -10,3 +10,4 @@ export * from './feedback';
 export * from './referral';
 export * from './transaction';
 export * from './requisite';
+export * from './blacklist';

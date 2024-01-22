@@ -3,4 +3,7 @@ export default interface IUpdateUserRequest {
   email?: string;
   referralCode?: string;
   referralShareConfiguration?: number;
+  timezone?: string;
+  currency?: string;
+  language?: string;
 }
