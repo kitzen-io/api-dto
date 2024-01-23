@@ -20,9 +20,6 @@ export default interface IUserEntity {
   referralStatisticModel: IUserReferralStatisticEntity;
   positiveFeedback: number;
   negativeFeedback: number;
-  timezone: string;
-  currency: string;
-  language: string;
   addresses: IUserAddressEntity[];
   writtenFeedbacks: IFeedbackEntity[];
   receivedFeedbacks: IFeedbackEntity[];
