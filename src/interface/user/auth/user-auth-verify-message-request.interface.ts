@@ -3,4 +3,5 @@ export default interface IUserAuthVerifyMessageRequest {
   address: string;
   path: string;
   signature: string;
+  timezone: string;
 }

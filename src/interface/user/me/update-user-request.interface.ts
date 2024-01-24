@@ -4,6 +4,4 @@ export default interface IUpdateUserRequest {
   referralCode?: string;
   referralShareConfiguration?: number;
   timezone?: string;
-  currency?: string;
-  language?: string;
 }

@@ -16,6 +16,7 @@ export default interface IUserEntity {
   volume: number;
   lastOnline: Date;
   nameUpdateDate: Date;
+  timezone: string;
   userNotificationPreferences: IUserNotificationsPreferencesEntity;
   referralStatisticModel: IUserReferralStatisticEntity;
   positiveFeedback: number;
