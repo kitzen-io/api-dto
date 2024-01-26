@@ -4,6 +4,8 @@ import IGetUserBalanceRequest from './get-user-balance-request.interface';
 import IGetAvailableBalance from './get-available-balance.interface';
 import { IGetUserResponse } from './get-user-response';
 import IGetUserBalanceTradingResponse from './get-user-balance-trading-response.interface';
+import IGetUserSessionResponse from './get-user-session-response.interface';
+import IDeleteUserSessionRequest from './delete-user-session-request.interface';
 
 export {
   IUpdateUserRequest,
@@ -12,4 +14,6 @@ export {
   IGetAvailableBalance,
   IGetUserResponse,
   IGetUserBalanceTradingResponse,
+  IGetUserSessionResponse,
+  IDeleteUserSessionRequest,
 };
