@@ -3,7 +3,8 @@ import AddressTypeEnum from '../../../enum/address/address-type.enum';
 
 export interface IUserAddressRequest {
   addresses: IAddressDto[];
-  // pubkey: string;
+  pubkey?: string;
+  changePubkey?: string;
 }
 
 export interface IAddressDto {
