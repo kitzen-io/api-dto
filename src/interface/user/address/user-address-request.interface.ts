@@ -11,7 +11,6 @@ export interface IAddressDto {
   address: string;
   network: BlockchainNetworkEnum;
   type: AddressTypeEnum;
-  path: string;
   message: string;
   signature: string;
 }

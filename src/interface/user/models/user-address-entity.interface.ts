@@ -5,9 +5,7 @@ export default interface IUserAddressEntity {
   id: number;
   user: IUserEntity;
   userId: string;
-  isMaster: boolean;
   address: string;
-  path: string;
   type: AddressTypeEnum;
   network: BlockchainNetworkEnum;
   createdAt: Date;
